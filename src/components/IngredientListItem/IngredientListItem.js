@@ -1,6 +1,7 @@
 import {Stack, ListItem, TextField, Button} from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class IngredientListItem extends React.Component {
     render() {
@@ -20,7 +21,7 @@ class IngredientListItem extends React.Component {
 }
 
 IngredientListItem.propTypes = {
-    deleteHandler: PropTypes.Function.isRequired,
+    deleteHandler: PropTypes.func.isRequired,
 };
 
 export default IngredientListItem;
