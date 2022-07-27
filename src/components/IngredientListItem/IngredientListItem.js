@@ -11,7 +11,7 @@ class IngredientListItem extends React.Component {
                     <TextField label="Item Name" variant="outlined" fullWidth autoComplete="off" />
                     <TextField label="Quantity" variant="outlined" autoComplete="off"
                         type={'number'} />
-                    <Button onClick={this.props.deleteHandler}>
+                    <Button onClick={() => this.props.deleteHandler(this.props.id)}>
                         <DeleteIcon color="action" fontSize="large"/>
                     </Button>
                 </Stack>
@@ -22,6 +22,7 @@ class IngredientListItem extends React.Component {
 
 IngredientListItem.propTypes = {
     deleteHandler: PropTypes.func.isRequired,
+    id: PropTypes.number.isRequired,
 };
 
 export default IngredientListItem;
