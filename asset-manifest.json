@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recipe-serving-calculator/static/css/main.b060facd.css",
+    "main.js": "/recipe-serving-calculator/static/js/main.c385a5cd.js",
+    "static/js/787.5033c7f0.chunk.js": "/recipe-serving-calculator/static/js/787.5033c7f0.chunk.js",
+    "index.html": "/recipe-serving-calculator/index.html",
+    "main.b060facd.css.map": "/recipe-serving-calculator/static/css/main.b060facd.css.map",
+    "main.c385a5cd.js.map": "/recipe-serving-calculator/static/js/main.c385a5cd.js.map",
+    "787.5033c7f0.chunk.js.map": "/recipe-serving-calculator/static/js/787.5033c7f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b060facd.css",
+    "static/js/main.c385a5cd.js"
+  ]
+}
