@@ -17,8 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,7 +45,6 @@
   "devDependencies": {
     "eslint": "^8.20.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.30.1",
-    "gh-pages": "^4.0.0"
+    "eslint-plugin-react": "^7.30.1"
   }
 }
